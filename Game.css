@@ -1,4 +1,4 @@
-/* Background with Solid Color */
+
 body {
     margin: 0;
     padding: 0;
@@ -10,13 +10,13 @@ body {
     align-items: center;
   }
   
-  /* Game Container */
+
   .game-container {
     text-align: center;
     font-family: Arial, sans-serif;
     max-width: 720px;
     padding: 30px;
-    background: #98D2C0;  /* Soft mint green foreground */
+    background: #98D2C0; 
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -26,7 +26,7 @@ body {
     transform: scale(1.02);
   }
   
-  /* Choices Section */
+
   .choices {
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@ body {
     border-radius: 12px;
     cursor: pointer;
     transition: 0.3s;
-    background: #4F959D;  /* Matching background color */
+    background: #4F959D; 
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
@@ -51,7 +51,7 @@ body {
     transform: translateY(-3px);
   }
   
-  /* Image Styling */
+
   .choices img {
     width: 90px;
     height: 90px;
@@ -64,7 +64,7 @@ body {
     filter: brightness(1.15);
   }
   
-  /* Result Section */
+
   .result {
     margin-top: 20px;
     font-size: 18px;
@@ -90,7 +90,7 @@ body {
     transform: scale(1.1);
   }
   
-  /* Reset Button */
+
   .reset-btn {
     margin-top: 20px;
     padding: 10px 28px;
@@ -109,8 +109,7 @@ body {
     transform: scale(1.05);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   }
-  
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .choices {
       flex-direction: column;
