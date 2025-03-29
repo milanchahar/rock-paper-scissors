@@ -24,7 +24,7 @@ const Game = () => {
 
     setUserChoice(choice);
 
-    // 1-second delay before computer picks
+    
     setTimeout(() => {
       const randomIndex = Math.floor(Math.random() * 3);
       const compChoice = choices[randomIndex];
@@ -48,7 +48,7 @@ const Game = () => {
 
       setResult(newResult);
 
-      // Check if someone won 2 rounds
+      
       if (userScore + 1 === 2) {
         setGameOver(true);
         setResult("🎉 You Won the Round!");
